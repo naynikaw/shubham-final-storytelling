@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import HeroSection from "@/components/HeroSection";
 import NarrativeSection from "@/components/NarrativeSection";
 import DataCallout from "@/components/DataCallout";
