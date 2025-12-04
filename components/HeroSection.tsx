@@ -18,9 +18,12 @@ export default function HeroSection() {
                 <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-tight mb-6 text-foreground tracking-tight">
                     The Geography of Intelligence
                 </h1>
-                <p className="font-sans text-xl md:text-2xl text-muted max-w-2xl mx-auto leading-relaxed font-light">
+                <p className="font-sans text-xl md:text-2xl text-muted max-w-2xl mx-auto leading-relaxed font-light mb-8">
                     We tracked 940 new AI startups. One clear pattern emerged: <br className="hidden md:block" />
                     <span className="text-foreground font-medium">The remote work revolution didn't happen here.</span>
+                </p>
+                <p className="text-sm text-muted/60 font-mono uppercase tracking-widest">
+                    Data: Analysis of 940 venture-backed companies (CB Insights, Nov 2024)
                 </p>
             </motion.div>
 

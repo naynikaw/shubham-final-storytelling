@@ -1,5 +1,6 @@
 
 import HeroSection from "@/components/HeroSection";
+import IntroSection from "@/components/IntroSection";
 import NarrativeSection from "@/components/NarrativeSection";
 import DataCallout from "@/components/DataCallout";
 import ProgressIndicator from "@/components/ProgressIndicator";
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
       <ProgressIndicator />
       <HeroSection />
+      <IntroSection />
 
       <NarrativeSection
         id="universities"
@@ -24,7 +26,7 @@ export default function Home() {
           Stanford, MIT, and Berkeley are the undisputed engines of this wave. The density of talent moving from academic labs to venture-backed startups is unprecedented.
         </p>
         <p>
-          This isn&apos;t just about coding skills; it&apos;s about access to the frontier of model research. The path from PhD to CEO has never been shorter.
+          <strong>Founder Takeaway:</strong> If you aren&apos;t in these labs, you need to be recruiting from them. The next unicorn is likely being built in a dorm room right now.
         </p>
       </NarrativeSection>
 
@@ -50,6 +52,9 @@ export default function Home() {
         <p>
           That&apos;s 30% of the entire industry in a 30-mile radius. New York and London trail far behind. Proximity to capital and talent still beats bandwidth.
         </p>
+        <p>
+          <strong>Founder Takeaway:</strong> You can build anywhere, but you&apos;ll raise easier here. Network effects are real, and they are local.
+        </p>
       </NarrativeSection>
 
       <NarrativeSection
@@ -74,6 +79,9 @@ export default function Home() {
         <p>
           China, Israel, and Europe are barely visible on the chart. Structural advantages in capital and regulation have turned AI into an American export.
         </p>
+        <p>
+          <strong>Founder Takeaway:</strong> If you want world-class capital, you likely need a Delaware C-Corp and a US presence. The gravity of American VC is inescapable.
+        </p>
       </NarrativeSection>
 
       <NarrativeSection
@@ -89,6 +97,9 @@ export default function Home() {
         </p>
         <p>
           Valuations are cooling too. Is this a crash? No, it&apos;s a correction. The hype cycle is over; now the building begins.
+        </p>
+        <p>
+          <strong>Founder Takeaway:</strong> The &quot;easy money&quot; era is over. Focus on revenue, unit economics, and real problems. The next round won&apos;t be free.
         </p>
       </NarrativeSection>
 
@@ -114,34 +125,61 @@ export default function Home() {
         <p>
           The first wave was chatbots; the next wave is robots, chips, and factories. The &quot;Brain&quot; is getting a Body.
         </p>
+        <p>
+          <strong>Founder Takeaway:</strong> The digital world is crowded. Look to the physical world for the next massive opportunity.
+        </p>
       </NarrativeSection>
 
       <section className="py-24 px-6 md:px-12 lg:px-24 bg-[#1A1A1A] text-white w-full">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-4xl md:text-5xl mb-12">Conclusion</h2>
-          <div className="prose prose-lg prose-invert mx-auto mb-16 text-left">
-            <p className="text-xl md:text-2xl font-light leading-relaxed mb-8">
-              The verdict is in: <strong>Concentration wins.</strong>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-serif text-4xl md:text-5xl mb-12 text-center">The Founder&apos;s Playbook</h2>
+          <div className="prose prose-lg prose-invert mx-auto mb-16">
+            <p className="text-xl md:text-2xl font-light leading-relaxed mb-12 text-center text-gray-300">
+              Based on the data, here is your checklist for building the next great AI company:
             </p>
-            <p className="mb-8">
-              The AI revolution is happening in specific places, funded by specific people. For founders, the message is clear: Go where the action is. The long tail is lonely.
-            </p>
-            <p>
-              The boom of 2024 wasn&apos;t just a bubble—it was a selection event. Only time will tell which of these 940 companies build the future, and which become history.
-            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-teal-400">1. Scout the Labs</h3>
+                <p className="text-gray-300">
+                  Talent is concentrating in top research universities. If you aren&apos;t technical, find a co-founder who is publishing papers at Stanford or MIT.
+                </p>
+              </div>
+
+              <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-blue-400">2. Get to the Bay</h3>
+                <p className="text-gray-300">
+                  Remote work is great for execution, but bad for serendipity. To raise capital and build momentum, you need to be where the density is.
+                </p>
+              </div>
+
+              <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-purple-400">3. Go Vertical</h3>
+                <p className="text-gray-300">
+                  General purpose models are a race to the bottom. Build for specific industries—especially physical ones like manufacturing and logistics.
+                </p>
+              </div>
+
+              <div className="bg-white/5 p-8 rounded-2xl border border-white/10 hover:border-white/20 transition-colors">
+                <h3 className="text-xl font-bold mb-4 text-pink-400">4. Survive the Winter</h3>
+                <p className="text-gray-300">
+                  The funding frenzy is cooling. Optimize for survival. Build real revenue, not just hype. The next 18 months will be a test of endurance.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="text-sm text-gray-400 mb-12">
-            <p className="font-bold mb-2">Data source note</p>
-            <p>Analysis based on CB Insights data for 940 venture-backed AI/ML companies founded January 1, 2024 or later with minimum $250K funding. Data extracted November 2024.</p>
+          <div className="text-center">
+            <a
+              href="#"
+              className="inline-block bg-white text-[#1A1A1A] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors"
+            >
+              View Full Dataset on GitHub
+            </a>
+            <p className="mt-8 text-sm text-gray-500">
+              Analysis based on CB Insights data for 940 venture-backed AI/ML companies (Nov 2024).
+            </p>
           </div>
-
-          <a
-            href="#"
-            className="inline-block bg-white text-[#1A1A1A] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors"
-          >
-            View Full Dataset on GitHub
-          </a>
         </div>
       </section>
     </main>
