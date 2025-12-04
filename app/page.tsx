@@ -4,6 +4,7 @@ import IntroSection from "@/components/IntroSection";
 import NarrativeSection from "@/components/NarrativeSection";
 import DataCallout from "@/components/DataCallout";
 import ProgressIndicator from "@/components/ProgressIndicator";
+import FounderTakeaway from "@/components/FounderTakeaway";
 
 export default function Home() {
   return (
@@ -25,9 +26,9 @@ export default function Home() {
         <p>
           Stanford, MIT, and Berkeley are the undisputed engines of this wave. The density of talent moving from academic labs to venture-backed startups is unprecedented.
         </p>
-        <p>
-          <strong>Founder Takeaway:</strong> If you aren&apos;t in these labs, you need to be recruiting from them. The next unicorn is likely being built in a dorm room right now.
-        </p>
+        <FounderTakeaway>
+          If you aren&apos;t in these labs, you need to be recruiting from them. The next unicorn is likely being built in a dorm room right now.
+        </FounderTakeaway>
       </NarrativeSection>
 
       <NarrativeSection
@@ -52,9 +53,9 @@ export default function Home() {
         <p>
           That&apos;s 30% of the entire industry in a 30-mile radius. New York and London trail far behind. Proximity to capital and talent still beats bandwidth.
         </p>
-        <p>
-          <strong>Founder Takeaway:</strong> You can build anywhere, but you&apos;ll raise easier here. Network effects are real, and they are local.
-        </p>
+        <FounderTakeaway>
+          You can build anywhere, but you&apos;ll raise easier here. Network effects are real, and they are local.
+        </FounderTakeaway>
       </NarrativeSection>
 
       <NarrativeSection
@@ -79,9 +80,9 @@ export default function Home() {
         <p>
           China, Israel, and Europe are barely visible on the chart. Structural advantages in capital and regulation have turned AI into an American export.
         </p>
-        <p>
-          <strong>Founder Takeaway:</strong> If you want world-class capital, you likely need a Delaware C-Corp and a US presence. The gravity of American VC is inescapable.
-        </p>
+        <FounderTakeaway>
+          If you want world-class capital, you likely need a Delaware C-Corp and a US presence. The gravity of American VC is inescapable.
+        </FounderTakeaway>
       </NarrativeSection>
 
       <NarrativeSection
@@ -98,9 +99,9 @@ export default function Home() {
         <p>
           Valuations are cooling too. Is this a crash? No, it&apos;s a correction. The hype cycle is over; now the building begins.
         </p>
-        <p>
-          <strong>Founder Takeaway:</strong> The &quot;easy money&quot; era is over. Focus on revenue, unit economics, and real problems. The next round won&apos;t be free.
-        </p>
+        <FounderTakeaway>
+          The &quot;easy money&quot; era is over. Focus on revenue, unit economics, and real problems. The next round won&apos;t be free.
+        </FounderTakeaway>
       </NarrativeSection>
 
       <NarrativeSection
@@ -125,9 +126,9 @@ export default function Home() {
         <p>
           The first wave was chatbots; the next wave is robots, chips, and factories. The &quot;Brain&quot; is getting a Body.
         </p>
-        <p>
-          <strong>Founder Takeaway:</strong> The digital world is crowded. Look to the physical world for the next massive opportunity.
-        </p>
+        <FounderTakeaway>
+          The digital world is crowded. Look to the physical world for the next massive opportunity.
+        </FounderTakeaway>
       </NarrativeSection>
 
       <section className="py-24 px-6 md:px-12 lg:px-24 bg-[#1A1A1A] text-white w-full">
