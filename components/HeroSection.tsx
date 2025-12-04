@@ -16,7 +16,7 @@ export default function HeroSection() {
                 className="max-w-4xl z-10"
             >
                 <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-tight mb-6 text-foreground tracking-tight">
-                    The Geography of Intelligence
+                    Geography of Artificial Intelligence
                 </h1>
                 <p className="font-sans text-xl md:text-2xl text-muted max-w-2xl mx-auto leading-relaxed font-light mb-8">
                     We tracked 940 new AI startups. One clear pattern emerged: <br className="hidden md:block" />

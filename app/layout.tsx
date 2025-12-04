@@ -22,7 +22,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Where AI Startups Are Built",
+  title: "Geography of Artificial Intelligence",
   description: "An analysis of 940 venture-backed AI companies founded since January 2024.",
 };
 
